@@ -1,0 +1,162 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+html,body{
+     width: 100%;
+     height: 100vh;
+     overflow-x: hidden;
+}
+@font-face {
+     font-family: 'PP';
+     src: url(Fonts/PPAgrandir-300-Regular.otf);
+}
+@font-face {
+     font-family: 'OS';
+     src: url(Fonts/static/OpenSans-Medium.ttf);
+}
+.Acc{
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: 799;
+     font-size: 20px;
+}
+.SUN:hover{
+     background-color: white !important;
+     color: black !important;
+     transition: 0.7s ease-out !important;
+}
+.font{
+     font-family: 'OS';
+}
+.f-b-1:hover{
+     background-color: rgb(240, 240, 240) !important;
+     transition: 0.8s;
+     border-radius: 3px !important;
+}
+.f-b-2:hover{
+     border-radius: 3px !important;
+     transition: 0.8s;
+
+     background-color: #ba0352 !important;
+}
+.lang:hover{
+     background-color: rgb(235, 235, 235);
+     transition: 0.9s;
+     border-radius: 9px !important;
+}
+.bag:hover{
+     background-color: rgb(240, 240, 240);
+     border-radius: 50%;
+}
+.FG{
+     font-family: 'PP';
+     font-weight: 900;
+}
+.FF{
+     font-weight: 700;
+}
+.SP{
+     font-family: 'PP';
+}
+.city:hover{
+     transform: scale(1.07);
+     transition: .8s ease;
+}
+.card>button{
+     font-family: 'PP';
+}
+.app>h3{
+     font-family: 'PP';
+}
+.lunch>h1{
+     font-family: 'PP';
+}
+.OFG{
+     font-family: 'OS';
+}
+.Brands{
+     color: #E21B70;
+     font-weight: 500 !important;
+}
+.Brands:hover{
+     text-decoration-thickness: 2px;
+}
+
+.FA:hover{
+     text-decoration-thickness: 2px;
+}
+footer>div>ul>li{
+     margin-bottom: 5%;
+     font-weight: 500;
+     font-size: 18px;
+
+}
+.FI-1{
+     padding-left: 35%;
+     padding-right: 35%;
+     padding-top: 15%;
+     padding-bottom: 15%;
+}
+.FI-2{
+     padding-left: 30%;
+     padding-right: 30%;
+     padding-top: 15%;
+     padding-bottom: 15%;
+}
+footer>div>ul>li>a:hover{
+     text-decoration-thickness: 2px;
+}
+.cities{
+     width: 20rem;
+}
+@media only screen and (max-width: 576px) {
+     .NV{
+          display: none !important;
+     }
+     .FG{
+          font-size: 15px !important;
+     }
+     .cities{
+          width: 100% !important;
+          margin: auto !important;
+     }
+
+     footer>div>ul>li>a{
+          font-size: 10px !important;
+     }
+     footer>ul>li>a{
+          font-size: 6px !important;
+     }
+}
+@media only screen and (max-width: 768px) {
+     .ci-p{
+          display: block !important;
+     }
+     .card{
+          margin-left: 0 !important;
+     }
+     .FIF>input{
+          font-size: 10px;
+          padding: 3% !important;
+     }
+     .FF{
+          font-size: 10px !important;
+     }
+     .SP{
+          font-size: 15px !important;
+     }
+     .RSP{
+          width: 60% !important;
+     }
+     .card>button{
+          font-size: 5px;
+     }
+     .QR{
+          height: 100% !important;
+     }
+     .mobile{
+          width: 170% !important;
+     }
+    
+}
