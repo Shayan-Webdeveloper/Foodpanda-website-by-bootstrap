@@ -160,3 +160,6 @@ footer>div>ul>li>a:hover{
      }
     
 }
+.navbar-toggler:focus{
+     box-shadow: none;
+}
